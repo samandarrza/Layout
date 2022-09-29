@@ -1,0 +1,119 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.text-main{
+    color: #4B2613;
+}
+.text-main:hover{
+    color: goldenrod;
+}
+.logo:hover path{
+    fill: gold;
+}
+.footer{
+    background-color: #4B2613;
+    background-image: url(https://azza.az/wp-content/themes/azza-theme/images/footerBg-min.png);
+    height: 40vh;
+}
+main{
+    margin-top: 72px;
+}
+.azza-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+}
+.px16{
+    font-size: 16px;
+}
+header{
+    height: calc(100vh - 72px);
+    background: linear-gradient(0deg, #4B2613 0%, rgba(153, 52, 0, 0) 20%), url(https://azza.az/wp-content/uploads/2020/09/back-01-min.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+.item{
+    width: 33.3%;
+    overflow: hidden;
+}
+.item-images{
+    background-image: url(https://azza.az/wp-content/themes/azza-theme/images/bg-item-min.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.item-images .left{
+    width: 15%;
+    left: -100%;
+    bottom: 0;
+    transition: 0.25s;
+}
+.item:hover .left{
+    left: 0;
+}
+.item:hover .right{
+    right: 0;
+}
+.item:hover{
+    background-color: bisque;
+}
+
+.item-images .right{
+    width: 15%;
+    right: -100%;
+    bottom: 0;
+    transition: 0.25s;
+}
+.item-images .mid{
+    margin: 0;
+    left: 0%;
+    transform: translateX(-0%);
+    width: 40%;
+}
+.line::before,.line::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 1px;
+    background-color: black;
+    border-radius: 20px;
+}
+.line::before{
+    left: -75px;
+}
+
+.line::after{
+    right: -75px;
+}
+.map{
+    margin: auto;
+}
+.embedmap{
+   position: absolute;
+   background-color: #f7f7f7;
+   text-align: center;
+   top: 4%;
+   left: 35%;
+   padding: 50px;
+}
+
+.galareya{
+    height: 140vh
+}
+.g-images{
+    width: 16%;
+    height: 400px;
+}
+.g-images:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.g-image{
+    width: 20%;
+    height: 400px;
+}
+.g-image:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
