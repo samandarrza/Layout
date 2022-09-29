@@ -123,6 +123,7 @@ input,button,textarea{
 }
 .center{
     text-align: center;
+    margin: auto;
 }
 .space-arround{
     justify-content: space-around!important;

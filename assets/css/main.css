@@ -40,6 +40,7 @@ header{
     background-image: url(https://azza.az/wp-content/themes/azza-theme/images/bg-item-min.png);
     background-size: 90%;
     background-repeat: no-repeat;
+    margin: auto;
 }
 .item-images .left{
     width: 15%;
@@ -112,6 +113,7 @@ header{
 .g-image{
     width: 20%;
     height: 400px;
+    overflow: hidden;
 }
 .g-image:hover{
     transform: scale(1.1);
